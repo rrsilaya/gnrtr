@@ -1,0 +1,14 @@
+{
+  "name": "gnrtr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rrsilaya/gnrtr.git",
+  "author": "rrsilaya <rrsilaya@up.edu.ph>",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^4.0.1"
+  },
+  "bin": {
+    "gnrtr": "./index.js"
+  }
+}
