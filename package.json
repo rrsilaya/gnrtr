@@ -6,6 +6,7 @@
   "author": "rrsilaya <rrsilaya@up.edu.ph>",
   "license": "MIT",
   "dependencies": {
+    "cli-spinner": "^0.2.7",
     "inquirer": "^4.0.1"
   },
   "bin": {
