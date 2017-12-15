@@ -1,6 +1,6 @@
 {
   "name": "gnrtr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "git@github.com:rrsilaya/gnrtr.git",
   "author": "rrsilaya <rrsilaya@up.edu.ph>",
