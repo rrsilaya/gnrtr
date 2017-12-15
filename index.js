@@ -13,7 +13,7 @@ const C = {
 
 const TEMPLATES = fs.readdirSync(`${__dirname}/templates`);
 const PWD = process.cwd();
-const LOADER = new Spinner(`${C.blue}%s${C.reset} Installing dependencies (this may take a while)...`);
+const LOADER = new Spinner(`${C.blue}%s${C.reset} Installing dependencies (this might take a while)...`);
 LOADER.setSpinnerString("⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏");
 
 const validateProject = input => {
