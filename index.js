@@ -37,6 +37,10 @@ const populateFiles = (boilerplate, project) => {
         let mod = contents.split('\n');
         mod[1] = `  "name": "${project}",`;
         contents = mod.join('\n');
+      } else if (file === 'README.md') {
+        let mod = contents.split('\n');
+        mod[7] = `  ${project}`;
+        contents = mod.join('\n');
       }
 
       const writePath = `${PWD}/${project}/${file}`;
@@ -82,7 +86,7 @@ inquirer.prompt(QUESTIONS).then(answers => {
   fs.mkdirSync(`${PWD}/${project}`);
   process.stdout.write('\n');
   populateFiles(path, project);
-  process.stdout.write(`${C.green}✓${C.reset} Generated ${C.blue}${boilerplate}${C.reset} starter files\n`);
+  process.stdout.write(`${C.green}✓${C.reset} Generated ${C.blue}${project}${C.reset} starter files\n`);
 
   LOADER.start();
   exec(`cd ${project} && git init && yarn`, err => {

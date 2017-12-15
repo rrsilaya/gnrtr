@@ -16,8 +16,9 @@
 
 ### Installation
 1. Make sure you have node along with `npm` and `git` installed.
-2. Install using `npm install -g gnrtr`.
-3. Generate starter files by running `gnrtr`.
+2. Install `yarn` with `npm install -g yarn`.
+3. Install using `npm install -g gnrtr`.
+4. Generate starter files by running `gnrtr`.
 
 ### Available Starter Projects
 1. [express-app](https://github.com/rrsilaya/gnrtr/tree/master/templates/express-app)
